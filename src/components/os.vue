@@ -12,7 +12,7 @@
     <div>
       <h2>Virtual address</h2>
       <p>Virtual addresse to translate (in hex)</p><input v-model="addr" type="text" ><br/>
-      <p>PPN to translate if any(in hex)</p><input v-model="paddr" type="text" ><br/>
+      <p>PPN to translate if any (in hex)</p><input v-model="paddr" type="text" ><br/>
       <div v-html="res"></div>
     </div>
   </div>
