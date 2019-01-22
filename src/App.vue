@@ -9,8 +9,15 @@
 </template>
 
 <script>
+
+
 export default {
-  name: 'App'
+  name: 'App',
+  methods: {
+    hexToBi(str) {
+      
+    }
+  }
 }
 </script>
 
